@@ -1,0 +1,8 @@
+{{for row in rows:}}
+<tr>
+    <td>{{=row.title}}</td>
+    <td>{{=row.edition}}</td>
+    <td>{{=row.bookCondition}}</td>
+    <td>{{=row.email}}</td>
+</tr>
+{{pass}}
