@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".postActivity" >
+
+    <TextView
+        android:id="@+id/post_Title_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dip"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/post_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/post_Title_Label"
+        android:layout_alignRight="@+id/post_Condition"
+        android:layout_below="@+id/post_Title_Label"
+        android:layout_marginBottom="5dip"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#fff" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/post_Condition_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dip"
+        android:layout_below="@+id/post_Title"
+        android:text="@string/condition"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/post_Condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/post_Condition_Label"
+        android:layout_alignRight="@+id/post_Edition"
+        android:layout_below="@+id/post_Condition_Label"
+        android:layout_marginBottom="5dip"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#fff" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/post_Edition_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/post_Condition"
+        android:layout_marginBottom="5dip"
+        android:text="@string/edition"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/post_Edition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/post_Edition_Label"
+        android:layout_alignRight="@+id/post_Email"
+        android:layout_below="@+id/post_Edition_Label"
+        android:layout_marginBottom="5dip"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#fff" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/post_Email_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/post_Edition"
+        android:layout_marginBottom="5dip"
+        android:text="@string/email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/post_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/post_Email_Label"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/post_Email_Label"
+        android:layout_marginBottom="5dip"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#fff" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        android:text="POST" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BookFinder</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="home_tab_titles">
+        <item>Find Book</item>
+        <item>My Books</item>
+    </string-array>
+    <string-array name="home_tab_icon_names">
+        <item>ic_all_books</item>
+        <item>ic_my_books</item>
+    </string-array>
+
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="condition">Condition</string>
+    <string name="edition">Edition</string>
+    <string name="email">Email</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="title">Title</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:background="#111" >
+
+    <ListView
+        android:id="@+id/listViewMyBooks"
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/button_post_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post New!!!" />
+
+</LinearLayout>
